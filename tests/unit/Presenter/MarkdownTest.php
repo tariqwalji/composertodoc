@@ -18,6 +18,10 @@ class MarkdownTest extends TestCase
                                     . "This is a description\n"
                                     . "---------------------\n"
                                     . "\n"
-                                    . "* example/exampleproject (^9.1)", $output);
+                                    . "* example/exampleproject (^9.1)"
+                                    . "\n"
+                                    . "* example/notherexample (^0.1)"
+                                    . "\n"
+                                    . "* anotheruser/anotherexample (^5.0)", $output);
     }
 }

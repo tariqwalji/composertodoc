@@ -10,6 +10,8 @@
     }
   ],
   "require": {
-    "example/exampleproject": "^9.1"
+    "example/exampleproject": "^9.1",
+    "example/notherexample": "^0.1",
+    "anotheruser/anotherexample": "^5.0"
   }
 }
