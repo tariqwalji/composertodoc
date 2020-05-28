@@ -10,6 +10,12 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "^9.1"
+        "phpunit/phpunit": "^9.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tariqwalji\\": "src/"
+        }
     }
 }
