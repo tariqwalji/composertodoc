@@ -1,0 +1,13 @@
+{
+    "name": "tariqwalji/composertodoc",
+    "description": "Converts composer.json into a markdown file.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tariqwalji",
+            "email": "tariqwalji@yahoo.co.uk"
+        }
+    ],
+    "require": {}
+}
