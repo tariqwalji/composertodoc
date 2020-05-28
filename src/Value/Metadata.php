@@ -28,4 +28,9 @@ class Metadata
     {
         return $this->dependencies;
     }
+
+    public function getDependenciesAsArray(): array
+    {
+        return get_object_vars($this->dependencies);
+    }
 }
