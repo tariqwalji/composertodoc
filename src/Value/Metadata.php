@@ -7,7 +7,7 @@ class Metadata
     private $projectDescription;
     private $dependencies;
 
-    public function __construct(string $projectName, string $projectDescription, object $dependencies)
+    public function __construct(string $projectName, string $projectDescription, \stdClass $dependencies)
     {
         $this->projectName = $projectName;
         $this->projectDescription = $projectDescription;
